@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" role="img" aria-label="kritik">
+  <style>
+    .eye { fill: #e8bb2a; transform-box: fill-box; transform-origin: center; animation: blink 8s infinite; }
+    @keyframes blink { 0%, 95%, 100% { transform: scaleY(1); } 97% { transform: scaleY(.1); } }
+    @media (prefers-reduced-motion: reduce) { .eye { animation: none; } }
+  </style>
+  <rect width="880" height="200" rx="12" fill="#14101c"/>
+  <g transform="translate(318 35) scale(.42)">
+    <g fill="none" stroke="#f4f1f8" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M40 26V200M112 92 44 152M70 130l48 70"/>
+      <path d="M160 92V200M160 136c4-26 22-42 48-42"/>
+      <path d="M262 92V200"/>
+      <path d="M342 44V172c0 18 10 28 28 28M312 92h62"/>
+      <path d="M422 92V200"/>
+      <path d="M482 26V200M554 92 486 152M512 130l48 70"/>
+    </g>
+    <circle class="eye" cx="262" cy="44" r="18"/>
+    <circle class="eye" cx="422" cy="44" r="18"/>
+    <path d="M236 244c60 50 152 50 212 0" fill="none" stroke="#e8bb2a" stroke-width="20" stroke-linecap="round"/>
+  </g>
+</svg>
